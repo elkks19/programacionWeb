@@ -1,0 +1,78 @@
+html body{
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+
+.content{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+}
+
+.navbar{
+	display: flex;
+	justify-content: space-between;
+
+	list-style: none;
+	width: 100%;
+	height: 10%;
+}
+.navbar nav{
+	display: flex;
+	justify-content:  space-around;
+	align-items: center;
+	width: 100%;
+}
+
+
+.link{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+}
+
+.navbar, nav, .navbarLink, a{
+	text-decoration: none;
+	color: black;
+}
+.link:hover{
+	cursor: pointer;
+}
+.link:hover a{
+	text-decoration: underline;
+	color: red;
+}
+
+.logo{
+	width: 15%;
+	height: auto;
+}
+
+
+
+
+
+.section{
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+
+.chefImg{
+	width: 50%;
+}
+.frase{
+	width: 50%;
+}
+
+
+
+footer{
+	margin-top: auto;
+}
